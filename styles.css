@@ -1,0 +1,141 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+main {
+    margin-top: 20px;
+}
+
+body {
+    color: #000000;
+    margin: auto;
+    font-family: "Times New Roman", sans-serif;
+    min-width: 600px;
+    max-width: 900px;
+
+}
+
+nav, footer {
+    background-color: #FFC0CB;
+    border-radius: 100px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FF1493;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+nav a, footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#list {
+    height: 30px;
+    font-weight: bold;
+}
+
+.title-class {
+    width: 20%;
+}
+
+.author-class {
+    width: 70%;
+}
+
+#main {
+    display: grid;
+    padding: 50px;
+    text-align: center;
+    min-height: 750px;
+    grid-template-rows: 35px auto 35px;
+}
+
+#input-form {
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#input-form .label {
+    width: 100px;
+    padding-right: 20px;
+    line-height: 30px;
+    text-align: right;
+}
+
+#input-form .input {
+    line-height: 30px;
+}
+
+#input-form .button {
+    padding-top: 50px;
+    width: 200px;
+    text-align: right;
+}
+
+.break {
+    flex-basis: 100%;
+}
+
+input[type='text'], input[type='submit'], select {
+    padding: 5px;
+    margin-top: 4px;
+    font-size: 15px;
+    width: 350px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
+
+input[type='submit'] {
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    width: 100px;
+}
+
+.span-full {
+    color: #ffa600;
+}
+
+input[type='submit'].danger, .button.danger, button.danger {
+    background-color: #dc3545;
+}
+
+#message-block {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+
+    line-height: 29px;
+
+    padding: 2px 370px;
+    margin-bottom: 20px;
+    color: #155724;
+    background-color: #91eca7;
+    border-color: #c3e6cb;
+}
+
+
+#error-block {
+    color: #362b2b;
+    background-color: rgba(224, 46, 62, 0.78);
+    border-color: rgba(224, 46, 62, 0.59);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 2px 245px;
+}
+
